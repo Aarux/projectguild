@@ -2,6 +2,7 @@ export const LANDING = "/";
 export const HOME = "/home";
 export const GALLERY = "/gallery";
 export const NEWS = "/news";
+export const EVENTS = "/events";
 export const ABOUT_US = "/aboutus";
 export const JOIN_US = "/joinus";
 export const SIGN_UP = "/signup";

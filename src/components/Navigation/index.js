@@ -46,6 +46,11 @@ class NavigationAuthBase extends Component {
           </NavLink>
         </NavBtn>
         <NavBtn>
+          <NavLink exact to={ROUTES.EVENTS}>
+            Events
+          </NavLink>
+        </NavBtn>
+        <NavBtn>
           <NavLink exact to={ROUTES.JOIN_US}>
             Join Us
           </NavLink>

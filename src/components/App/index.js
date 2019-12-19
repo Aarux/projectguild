@@ -4,6 +4,7 @@ import Navigation from "../Navigation";
 import LandingPage from "../Landing";
 import GalleryPage from "../Gallery";
 import NewsPage from "../News";
+import EventsPage from "../Events";
 import AboutUsPage from "../AboutUs";
 import JoinUsPage from "../JoinUs";
 import HomePage from "../Home";
@@ -31,6 +32,7 @@ class App extends Component {
             <Route exact path={ROUTES.GALLERY} component={GalleryPage} />
             <Route exact path={ROUTES.NEWS} component={NewsPage} />
             <Route exact path={ROUTES.ABOUT_US} component={AboutUsPage} />
+            <Route exact path={ROUTES.EVENTS} component={EventsPage} />
             <Route exact path={ROUTES.JOIN_US} component={JoinUsPage} />
             <Route exact path={ROUTES.HOME} component={HomePage} />
             <Route exact path={ROUTES.SIGN_UP} component={SignUpPage} />

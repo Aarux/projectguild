@@ -285,6 +285,36 @@ const News = styled.div`
   }
 `;
 
+const Events = styled.div`
+  width: 100%;
+  justify-content: center;
+
+  p {
+    text-align: center;
+    background: var(--color-Svart);
+    border: var(--border-Svart);
+    border-radius: 5px;
+    color: var(--color-Blalila);
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    background: var(--color-Svart);
+    border: var(--border-Svart);
+    border-radius: 5px;
+    color: var(--color-Blalila);
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 50%;
+    padding: 20px;
+    height: fit-content;
+    justify-content: space-around;
+    display: flex;
+  }
+`;
+
 const AboutUs = styled.div`
   width: 100%;
   justify-content: center;
@@ -475,6 +505,7 @@ export {
   Gallery,
   GalleryImage,
   News,
+  Events,
   AboutUs,
   JoinUs,
   SignIn,
