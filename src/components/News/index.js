@@ -1,6 +1,5 @@
 import React from "react";
 import { News } from "../../styles/GlobalStyle";
-import * as ROUTES from "../../constants/routes";
 
 const NewsPage = () => (
   <News>
